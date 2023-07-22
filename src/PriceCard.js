@@ -1,11 +1,10 @@
 import React from "react";
-
+import "./index.css";
 const PriceCard = () => {
   return (
-    <div>
-      <div className="wrapper" />
+    <div className="wrapper">
       <input type="radio" name="slider" id="tab-1" />
-      <input type="radio" name="slider" id="tab-2" defaultChecked />
+      <input type="radio" name="slider" id="tab-2" defaultChecked="" />
       <input type="radio" name="slider" id="tab-3" />
       <header>
         <label for="tab-1" className="tab-1">
@@ -28,21 +27,21 @@ const PriceCard = () => {
             </div>
             <ul className="features">
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>100 GB Premium Bandwidth</span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>FREE 50+ Installation Scripts WordPress Supported</span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>
                   One FREE Domain Registration .com and .np extensions only
                 </span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>Unlimited Email Accounts & Databases</span>
               </li>
             </ul>
@@ -54,21 +53,21 @@ const PriceCard = () => {
             </div>
             <ul className="features">
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>Unlimited GB Premium Bandwidth</span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>FREE 200+ Installation Scripts WordPress Supported</span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>
                   Five FREE Domain Registration .com and .np extensions only
                 </span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>Unlimited Email Accounts & Databases</span>
               </li>
             </ul>
@@ -80,21 +79,21 @@ const PriceCard = () => {
             </div>
             <ul className="features">
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>200 GB Premium Bandwidth</span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>FREE 100+ Installation Scripts WordPress Supported</span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>
                   Two FREE Domain Registration .com and .np extensions only
                 </span>
               </li>
               <li>
-                <i className="fas fa-check"></i>
+                <i className="fas fa-check" />
                 <span>Unlimited Email Accounts & Databases</span>
               </li>
             </ul>
