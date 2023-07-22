@@ -1,7 +1,10 @@
-import "./App.css";
-
+import PriceCard from "./PriceCard";
 function App() {
-  return <div>Pricing Card</div>;
+  return (
+    <div>
+      <PriceCard />
+    </div>
+  );
 }
 
 export default App;
